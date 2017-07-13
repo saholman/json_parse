@@ -1,6 +1,6 @@
 {
   "name": "json_parse",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Does a JSON.parse(param) and prints out param if the parse fails",
   "main": "index.js",
   "scripts": {

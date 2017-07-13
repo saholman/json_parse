@@ -3,6 +3,6 @@ module.exports = function(param, callback) {
         param = JSON.parse(param)
         return param;
     } catch(err) {
-        console.log("JSON.parse error: " + err.message + ", parameter=" + param)
+        throw("JSON.parse error: " + err.message + ", parameter=" + param)
     }
 }

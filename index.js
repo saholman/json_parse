@@ -1,4 +1,4 @@
-module.exports = function(param, callback) {
+module.exports = function(param) {
     try {
         param = JSON.parse(param)
         return param;
